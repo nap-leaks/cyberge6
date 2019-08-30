@@ -136,7 +136,7 @@ export default {
   data() {
     return {
       appStarted: false,
-      appEnded: true,
+      appEnded: false,
       isWinner: false,
       countdown,
       countdownInterval: null,
