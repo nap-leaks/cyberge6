@@ -1,0 +1,47 @@
+* {
+    pointer-events: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
+
+video::-webkit-media-controls {
+    display: none!important;
+    -webkit-appearance: none;
+}
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+button:focus {
+    outline:0;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+    background-color: #82aa45;
+    background-image: url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: cover 60s infinite;
+}
+
+@keyframes cover {
+    0%   {
+      background-position-x: 0;
+    }
+    50%  {
+        background-position-x: 100%;
+    }
+    100% {
+        background-position-x: 0;
+    }
+  }

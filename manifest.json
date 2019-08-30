@@ -1,0 +1,12 @@
+{
+  "name": "КиберGe6",
+  "short_name": "КиберGe6",
+  "description": "Добавена реалност в нереална виртуалност",
+  "dir": "auto",
+  "lang": "bg-BG",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "https://bit.ly/cyberge6",
+  "background_color": "#82aa45",
+  "theme_color": "#82aa45",
+}

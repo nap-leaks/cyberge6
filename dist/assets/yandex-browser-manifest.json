@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "api_version": 1,
+  "layout": {
+    "logo": "https://nap-leaks.github.io/cyberge6/dist/assets/yandex-browser-50x50.png",
+    "color": "#fff",
+    "show_title": true
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta property="og:url" content="https://nap-leaks.github.io/cyberge6/dist/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="КиберGe6 v1.0" />
+    <meta property="og:description" content="Добавена реалност в нереална виртуалност" />
+    <meta property="og:image" content="img/cover.jpg" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>КиберGe6 v1.0</title>
+    <script src="js/inobounce.min.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>Съжалявам, КиберGe6 изисква JavaScript да бъде включен</strong>
+    </noscript>
+    <div id="app"></div>
+    <script>
+      window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '2314052548692862',
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v4.0'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+      };
+
+      (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
+</html>
